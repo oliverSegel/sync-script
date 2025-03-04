@@ -95,7 +95,7 @@ function agrupar(rolesArray) {
 function readExcel() {
   // eslint-disable-next-line no-undef
   const __dirname = process.cwd();
-  const filename = path.join(__dirname, 'sync', 'excels', 'permisos.xlsx');
+  const filename = path.join(__dirname, 'sync', 'excels', 'Permisos.xlsx');
   const workbook = XLSX.readFile(filename);
   const sheet_name_list = workbook.SheetNames;
   const worksheet = workbook.Sheets[sheet_name_list[0]];
